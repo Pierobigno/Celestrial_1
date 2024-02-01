@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5932901118849886178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2712060454594786057}
+  - component: {fileID: 7822850925808125602}
+  - component: {fileID: 8116666711233461445}
+  - component: {fileID: 2964480627327245179}
+  - component: {fileID: 1201235977686245224}
+  m_Layer: 0
+  m_Name: Tuto_04_Kill01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2712060454594786057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5932901118849886178}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7822850925808125602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5932901118849886178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9685ea9dcd44aef41baf6e085ca69586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAble: 0
+  isTriggered: 0
+  isOver: 0
+--- !u!114 &8116666711233461445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5932901118849886178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54ea9c20015e414e844774e3c53bc72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - actorID: 0
+    message: Ils sont de plus en plus nombreux, je ne sais pas pourquoi.
+  - actorID: 0
+    message: "Je ne sais m\xEAme pas ce que c'est, ni d'o\xF9 ils viennent..."
+  actors:
+  - name: Lucian
+    sprite: {fileID: 21300000, guid: 47d9c9b78d2ae5e43922dc5577680d3c, type: 3}
+--- !u!114 &2964480627327245179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5932901118849886178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f5395366c4760439ba026a7701bc4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueTriggered: 0
+  dialogueDelay: 1
+  endOfDialogueIsEndOfEvent: 1
+--- !u!114 &1201235977686245224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5932901118849886178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681ad8fb32cb241458daaaa0f8d54a26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActivate: 0

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4125843694087614463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4125843694087614462}
+  - component: {fileID: 4125843694087614458}
+  - component: {fileID: 4125843694087614459}
+  - component: {fileID: 5034210383293680665}
+  m_Layer: 5
+  m_Name: GamePadButtons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4125843694087614462
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125843694087614463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -825, y: -242}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4125843694087614458
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125843694087614463}
+  m_CullTransparentMesh: 1
+--- !u!114 &4125843694087614459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125843694087614463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5034210383293680665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125843694087614463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcce90b067c03e848967d8a1505385c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: e4cfeabe1b9ffa94aac16fcc0f23f2e8, type: 3}
+  - {fileID: 21300000, guid: b9eca288d1f715343b26ea9bc8e826f6, type: 3}
+  - {fileID: 21300000, guid: 91c5e6b4ef79c2649917cbe0f957cfd8, type: 3}
+  - {fileID: 21300000, guid: 20ed36f5cef30094e82296d984d1a19a, type: 3}
+  - {fileID: 21300000, guid: ebdedb19bfaa1444e80b15b666e3170a, type: 3}
+  - {fileID: 21300000, guid: b30a39f6e26d08d4f913675de26705e8, type: 3}
+  - {fileID: 21300000, guid: 85e903ac8ad05454a88ae019b09431e4, type: 3}
+  - {fileID: 21300000, guid: dbc4d64e7e4237f49956d72285fc07bb, type: 3}
+  - {fileID: 21300000, guid: 9d0138bba81b4724d823493f975c69a3, type: 3}
+  - {fileID: 21300000, guid: d6bb56b076f008a4fa6864d1e8012ed2, type: 3}
+  - {fileID: 21300000, guid: d953ea328091503449e1c87532ff547c, type: 3}
+  - {fileID: 21300000, guid: 5e177cd12182c444198838ffc3d5f775, type: 3}
+  - {fileID: 21300000, guid: bd6e9f155d328d74f9920aaf7b7b0dd5, type: 3}
+  - {fileID: 21300000, guid: a089c51f55ee0e14a9c6c9d55bc2fad5, type: 3}
+  spriteNames:
+  - DirectionalCross
+  - EastButton
+  - LB
+  - LeftJoystick
+  - LT
+  - NorthButton
+  - RB
+  - RightJoystick
+  - RT
+  - SelectButton
+  - SouthButton
+  - StartButton
+  - Stick
+  - WestButton
+  currentSpriteName: 

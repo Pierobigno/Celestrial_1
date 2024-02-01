@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8712312564316550059
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Material_FightTransitionSprite
+  m_Shader: {fileID: -6465566751694194690, guid: bad65d8fd56bd97469f0b4ab6b1032ad, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Aspect:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_239f12fb27054ad5bcf5adf98973e5c0: -0.00019
+    - Vector1_bfb11479767443c0bfc7f73ee064867a: 0.00044
+    - Vector1_f0b5c821df814f109f85ad6c0603f6a2: 1
+    m_Colors:
+    - Vector2_054d77a544c147f093fb9191f336e63a: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_78bcda3bc84f47e0aa762a49b319fb42: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_f0d4022270fe47d193e7b99d1cf7c1b1: {r: 1, g: 1, b: 1, a: 1}
+    - Vector3_2edc7a88b1fa42f8aa0460cbeb48908b: {r: 1, g: 1, b: 1, a: 0}
+    - Vector3_9523665bbaa3436cb39edc57d1b9b6b6: {r: 1, g: 1, b: 1, a: 0}
+    - Vector3_eec8f40b89d944929a442d8d9727e815: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

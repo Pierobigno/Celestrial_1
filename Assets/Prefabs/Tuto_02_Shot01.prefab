@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4828170475250348226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5649414319853523579}
+  - component: {fileID: 1257263107786656359}
+  - component: {fileID: 3464219062122341591}
+  - component: {fileID: 2779958889868782285}
+  - component: {fileID: 283167533081958696}
+  - component: {fileID: 1175053389066409855}
+  - component: {fileID: 2301777112825645977}
+  - component: {fileID: 2607661851504936922}
+  - component: {fileID: 749869166144361468}
+  - component: {fileID: 4422628474074172176}
+  m_Layer: 0
+  m_Name: Tuto_02_Shot01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5649414319853523579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 703, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1257263107786656359
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12000, y: 8000}
+  m_EdgeRadius: 0
+--- !u!114 &3464219062122341591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9685ea9dcd44aef41baf6e085ca69586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAble: 0
+  isTriggered: 1
+  isOver: 0
+--- !u!114 &2779958889868782285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac585cfa26532544a9b2a1c25bff2eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAble: 0
+  isTriggered: 0
+  isOver: 0
+  resetEvent: 0
+  playerIsAbleToInteractWithEnv: 0
+--- !u!114 &283167533081958696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77290be135bbd114887d838b53b86e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableIsAble: 0
+  disableEvent: 0
+  resetEvent: 0
+  disableIsAbleToIntercatWithEnv: 0
+  exitActivateNextEvent: 0
+--- !u!114 &1175053389066409855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58c900bb3f444940ba84ba150a28240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2301777112825645977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dffe9e2c5fdc2e44abb33b3deee104fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stuckThePlayerIfTriggered: 0
+  unlockThePlayerIfOver: 0
+  stuckEnemiesIfTriggered: 0
+  unlockEnemiesIfOver: 0
+  disableEventIfOver: 0
+  destroyEventIfOver: 1
+  destroyDelay: 1
+  animatedObject: {fileID: 0}
+  animateIfIsAble: 0
+  animateIfIsTriggered: 0
+  animateIfIsOver: 0
+--- !u!114 &2607661851504936922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dedc2e0851993f40ad131e7583aa40f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionToTrigger: 2
+--- !u!114 &749869166144361468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9343eb90b7c3ee4e884de1ee56e76ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerOpenInfosBox: 1
+  endCloseInfosBox: 1
+  infosBoxText: Tirer
+  inputSprite: RB
+--- !u!114 &4422628474074172176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828170475250348226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11d4066597507e4dbb202e5c024740a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateIfIsOver: 1
+  activateIfIsAble: 0
+  activateIfIsTriggered: 0
+  disableIfIsNotAble: 0
+  nextEvents:
+  - {fileID: 0}
+  nextEventsActive: 0
+  timerBeforeActivateNextEvent: 0

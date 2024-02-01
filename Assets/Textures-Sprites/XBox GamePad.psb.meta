@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: b4bf43ae68f48c847aed37eebdb8df5f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: LeftJoystick
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1558
+      y: 450
+      width: 175
+      height: 177
+    spriteID: e3caaa029697ee043b3aed455b818577
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1558, y: 450}
+    spritePosition: {x: 298, y: 715}
+  - name: DirectionalCross
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1558
+      y: 4
+      width: 256
+      height: 253
+    spriteID: 2c6d734a8a684894bb8353616361be14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1558, y: 4}
+    spritePosition: {x: 453, y: 421}
+  - name: SelectButton
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1743
+      y: 338
+      width: 64
+      height: 65
+    spriteID: 888362e9baa102b48b8a4e22bdb63526
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1743, y: 338}
+    spritePosition: {x: 641, y: 769}
+  - name: StartButton
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1743
+      y: 265
+      width: 65
+      height: 65
+    spriteID: 95ffabb76f1c91a4f977922ecc7d38f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1743, y: 265}
+    spritePosition: {x: 871, y: 770}
+  - name: NorthButton
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1558
+      y: 860
+      width: 102
+      height: 104
+    spriteID: 5439946a18f4b494fa9af14cea02a8fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1558, y: 860}
+    spritePosition: {x: 1146, y: 854}
+  - name: WestButton
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1558
+      y: 635
+      width: 103
+      height: 105
+    spriteID: 9002c0a532a14e24aa11ca11b1ee3075
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1558, y: 635}
+    spritePosition: {x: 1036, y: 749}
+  - name: EstButton
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1558
+      y: 972
+      width: 102
+      height: 103
+    spriteID: ecf3290d0aa7ff64a94bd1d46b622871
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1558, y: 972}
+    spritePosition: {x: 1250, y: 747}
+  - name: SouthButton
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1558
+      y: 748
+      width: 103
+      height: 104
+    spriteID: 3f709e08be0295148a3410363d401c82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1558, y: 748}
+    spritePosition: {x: 1142, y: 644}
+  - name: RightJoystick
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1558
+      y: 265
+      width: 177
+      height: 177
+    spriteID: 5023432330f27024cb2fbacc050f679b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1558, y: 265}
+    spritePosition: {x: 908, y: 476}
+  - name: Calque 0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1546
+      height: 1077
+    spriteID: 73db0e5cb54766e4bba22ada08a8b68c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 16, y: 25}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: LeftJoystick
+    spriteName: LeftJoystick
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e3caaa029697ee043b3aed455b818577
+    layerID: 5
+    mosaicPosition: {x: 1558, y: 450}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DirectionalCross
+    spriteName: DirectionalCross
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2c6d734a8a684894bb8353616361be14
+    layerID: 6
+    mosaicPosition: {x: 1558, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SelectButton
+    spriteName: SelectButton
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 888362e9baa102b48b8a4e22bdb63526
+    layerID: 7
+    mosaicPosition: {x: 1743, y: 338}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: StartButton
+    spriteName: StartButton
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 95ffabb76f1c91a4f977922ecc7d38f8
+    layerID: 8
+    mosaicPosition: {x: 1743, y: 265}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: NorthButton
+    spriteName: NorthButton
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5439946a18f4b494fa9af14cea02a8fb
+    layerID: 9
+    mosaicPosition: {x: 1558, y: 860}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: WestButton
+    spriteName: WestButton
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9002c0a532a14e24aa11ca11b1ee3075
+    layerID: 10
+    mosaicPosition: {x: 1558, y: 635}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EstButton
+    spriteName: EstButton
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ecf3290d0aa7ff64a94bd1d46b622871
+    layerID: 11
+    mosaicPosition: {x: 1558, y: 972}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SouthButton
+    spriteName: SouthButton
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3f709e08be0295148a3410363d401c82
+    layerID: 12
+    mosaicPosition: {x: 1558, y: 748}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RightJoystick
+    spriteName: RightJoystick
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5023432330f27024cb2fbacc050f679b
+    layerID: 13
+    mosaicPosition: {x: 1558, y: 265}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Calque 0
+    spriteName: Calque 0
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 73db0e5cb54766e4bba22ada08a8b68c
+    layerID: 3
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

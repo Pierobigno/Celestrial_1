@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3644106155576325992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5466026301397403867}
+  - component: {fileID: 6536591193521013895}
+  - component: {fileID: 8161329134327560632}
+  - component: {fileID: 388023364746417510}
+  - component: {fileID: 2561042341679981952}
+  - component: {fileID: 5164456015057322196}
+  - component: {fileID: 7912997107214375214}
+  - component: {fileID: 3291297965688698574}
+  - component: {fileID: 4892960301666091724}
+  - component: {fileID: 9143623971374670270}
+  - component: {fileID: 7808563349530892955}
+  m_Layer: 0
+  m_Name: MeetZelel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5466026301397403867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 397, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &6536591193521013895
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -150, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 450, y: 350}
+  m_EdgeRadius: 0
+--- !u!114 &8161329134327560632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9685ea9dcd44aef41baf6e085ca69586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAble: 0
+  isTriggered: 0
+  isOver: 0
+--- !u!114 &388023364746417510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac585cfa26532544a9b2a1c25bff2eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAble: 0
+  isTriggered: 1
+  isOver: 0
+  resetEvent: 0
+  playerIsAbleToInteractWithEnv: 0
+--- !u!114 &2561042341679981952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77290be135bbd114887d838b53b86e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableIsAble: 0
+  disableEvent: 0
+  resetEvent: 0
+  disableIsAbleToIntercatWithEnv: 0
+  exitActivateNextEvent: 0
+--- !u!114 &5164456015057322196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f5395366c4760439ba026a7701bc4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueTriggered: 0
+  dialogueDelay: 0
+  endOfDialogueIsEndOfEvent: 1
+--- !u!114 &7912997107214375214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53aae08e68402ad4a8518a03c387cdbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endOfEventLaunchFight: 1
+  fightLaunchedDisableEvent: 1
+--- !u!114 &3291297965688698574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58c900bb3f444940ba84ba150a28240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4892960301666091724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54ea9c20015e414e844774e3c53bc72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - actorID: 0
+    message: '!!!'
+  actors:
+  - name: Lucian
+    sprite: {fileID: 21300000, guid: 47d9c9b78d2ae5e43922dc5577680d3c, type: 3}
+--- !u!114 &9143623971374670270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dffe9e2c5fdc2e44abb33b3deee104fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stuckThePlayerIfTriggered: 1
+  unlockThePlayerIfOver: 1
+  stuckEnemiesIfTriggered: 0
+  unlockEnemiesIfOver: 0
+  disableEventIfOver: 0
+  destroyEventIfOver: 1
+  destroyDelay: 3
+  animatedObject: {fileID: 0}
+  animateIfIsAble: 0
+  animateIfIsTriggered: 0
+  animateIfIsOver: 0
+--- !u!114 &7808563349530892955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644106155576325992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11d4066597507e4dbb202e5c024740a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateIfIsOver: 0
+  activateIfIsAble: 0
+  activateIfIsTriggered: 0
+  disableIfIsNotAble: 0
+  nextEvents: []
+  nextEventsActive: 0
+  timerBeforeActivateNextEvent: 0
